@@ -14,9 +14,10 @@ public class PaginatorTest extends TestCase {
 
     @Test
     public void paginate(){
-        String example = "ABCDEFGHIJKLMNOPRSTUWYZ";
-        assertEquals(paginator.paginate(example).length,3);
-        assertEquals(example[0],"ABC");
-    }
 
+        String example= "ABCDEFGHIJKLMNOP";
+        String [] result = paginator.paginate(example);
+        assertEquals(result.length,3);
+        assertEquals(result[0],"ABC");
+    }
 }

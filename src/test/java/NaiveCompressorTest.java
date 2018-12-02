@@ -19,7 +19,6 @@ public class NaiveCompressorTest extends TestCase {
 
     @Test
     public void decompress(){
-
         assertEquals(naiveCompressor.decompress("JavaJestFajna"),"Java jest fajna");
     }
 

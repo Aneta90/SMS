@@ -1,26 +1,29 @@
 import junit.framework.TestCase;
+import junitparams.JUnitParamsRunner;
+import junitparams.Parameters;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
 
 import java.math.BigDecimal;
 
+@RunWith(JUnitParamsRunner.class)
+
 public class CalculatorTest extends TestCase {
 
-    private CostCalculator costCalculator;
-    BigDecimal UNIT_PRICE = BigDecimal.valueOf(2.0);
-
-    @Before
-    public void setUpCalculator() {
-        costCalculator = new CostCalculator(UNIT_PRICE);
+    @Test
+    @Parameters(method="calcValues")
+    public void calculate(BigDecimal unitCost, int numberOfMessages, BigDecimal expectedValue){
+        CostCalculator calc = new CostCalculator(unitCost);
+        assertEquals(expectedValue,calc.calculate(numberOfMessages));
     }
 
-    @Test
-    public void calculate(){
-        assertEquals(costCalculator.calculate(5),10.0);
-    }
-
-    @Test
-    public void calculateEmptySms(){
-        assertEquals(costCalculator.calculate(0),0);
+    private Object[] calcValues(){ //!private
+        return new Object[]{
+                new Object[]{new BigDecimal(0),100,new BigDecimal(0)},
+                new Object[]{new BigDecimal(0.3),10,new BigDecimal(3)},
+                new Object[]{new BigDecimal(0.3),0,new BigDecimal(0)},
+        };
     }
 }
