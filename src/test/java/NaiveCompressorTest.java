@@ -1,10 +1,12 @@
-import junit.framework.TestCase;
+
 import org.junit.Before;
 import org.junit.Test;
 
-public class NaiveCompressorTest extends TestCase {
+import static org.junit.Assert.assertEquals;
 
-    private NaiveCompressor naiveCompressor;
+public class NaiveCompressorTest {
+
+    private static NaiveCompressor naiveCompressor;
 
     @Before
     public void setUpCompressor(){
@@ -12,14 +14,15 @@ public class NaiveCompressorTest extends TestCase {
     }
 
     @Test
-    public void compress(){
-        assertEquals(naiveCompressor.compress("Java jest fajna"),"JavaJestFajna");
+    public void testCompress(){
+        String message = "Java jest fajna";
+        assertEquals(naiveCompressor.compress(message),"JavaJestFajna");
         assertEquals(naiveCompressor.compress("Javajestfajna"),"Javajestfajna");
     }
 
     @Test
-    public void decompress(){
-        assertEquals(naiveCompressor.decompress("JavaJestFajna"),"Java jest fajna");
+    public void testDecompress(){
+        assertEquals(naiveCompressor.decompress("JavaJestFajna"),"java jest fajna");
     }
 
 

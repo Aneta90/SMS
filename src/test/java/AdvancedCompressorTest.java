@@ -1,8 +1,11 @@
-import junit.framework.TestCase;
 import org.junit.Before;
 import org.junit.Test;
 
-public class AdvancedCompressorTest extends TestCase {
+import java.io.IOException;
+
+import static junit.framework.TestCase.assertTrue;
+
+public class AdvancedCompressorTest {
 
     private static AdvancedCompressor advancedCompressor;
 
@@ -12,18 +15,12 @@ public class AdvancedCompressorTest extends TestCase {
     }
 
     @Test
-    public void compress(){
+    public void compress() throws IOException {
 
         String message = "Java jest fajna";
         String exitMessage = advancedCompressor.compress(message);
         assertTrue(exitMessage.length() < message.length());
 
-    }
-
-    @Test
-    public void emptyString(){
-        String message=" ";
-        assertEquals(message,advancedCompressor.compress(" "));
     }
 
     @Test
