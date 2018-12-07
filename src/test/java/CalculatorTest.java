@@ -11,7 +11,6 @@ import static org.junit.Assert.assertEquals;
 
 public class CalculatorTest{
 
-
     @Test
     @Parameters(method="calcValues")
     public void calculate(BigDecimal UNIT_PRICE, int numberOfMessages, BigDecimal expectedValue){

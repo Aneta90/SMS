@@ -1,8 +1,3 @@
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.stream.Collectors;
-
 public class Paginator {
 
     private static int SMS_LENGTH;
@@ -37,12 +32,6 @@ public class Paginator {
                 .values().toArray(new String[0]);
         return result;*/
 
-    }
-
-    public static void main(String[] args) {
-        Paginator paginator = new Paginator(10);
-        System.out.println(Arrays.toString(paginator.paginate("ABCDEFGHIJKLMNO")));
-        System.out.println();
     }
 
 }

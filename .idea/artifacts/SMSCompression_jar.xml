@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact name="SMSCompression:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SMSCompression</output-path>
+    <root id="root">
+      <element id="module-output" name="SMSCompression" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/info/picocli/picocli/3.8.0/picocli-3.8.0.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.1" />
+      <element id="library" level="project" name="Maven: info.picocli:picocli:3.8.0" />
+      <element id="archive" name="SmsCompression.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
