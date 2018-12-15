@@ -3,7 +3,7 @@ public class Paginator {
     private static int SMS_LENGTH;
 
     public Paginator(int SMS_LENGTH) {
-        SMS_LENGTH=SMS_LENGTH;
+        this.SMS_LENGTH=SMS_LENGTH;
     }
 
     public String[] paginate(String text){

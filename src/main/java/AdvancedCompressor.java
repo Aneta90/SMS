@@ -3,6 +3,8 @@ import java.nio.CharBuffer;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
+/** * Smaz class for compression small strings. Port to java from <a href="https://github.com/antirez/smaz/">antirez</a> * This class is immutable. * * @author icedrake */
+
 public class AdvancedCompressor implements Compressor {
 
    private static final String CODEBOOK[] = {

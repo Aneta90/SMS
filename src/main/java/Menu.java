@@ -1,7 +1,5 @@
 import picocli.CommandLine;
-import picocli.CommandLine.Option;
 import java.math.BigDecimal;
-import java.util.Scanner;
 
 public class Menu {
 

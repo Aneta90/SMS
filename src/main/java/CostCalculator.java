@@ -15,3 +15,4 @@ public class CostCalculator {
     }
 
 }
+//this --> ta instancja klasyy której jesteśmy

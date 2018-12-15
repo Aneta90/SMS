@@ -6,12 +6,11 @@ import java.math.BigDecimal;
 
 import static org.junit.Assert.assertEquals;
 
-
 @RunWith(JUnitParamsRunner.class)
 
 public class CalculatorTest{
 
-    @Test
+    @Test()
     @Parameters(method="calcValues")
     public void calculate(BigDecimal UNIT_PRICE, int numberOfMessages, BigDecimal expectedValue){
         CostCalculator calc = new CostCalculator(UNIT_PRICE);
@@ -25,4 +24,6 @@ public class CalculatorTest{
                 new Object[]{new BigDecimal("0.2"),0,new BigDecimal("0.0")},
         };
     }
+
+
 }
