@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0051e2e-ed6b-485d-be5d-3d721826df33" name="Default" comment="README.md added">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d0051e2e-ed6b-485d-be5d-3d721826df33" name="Default" comment="ReadMe updated!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AdvancedCompressor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Compressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Compressor/Compressor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CostCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CostCalculator/CostCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NaiveCompressor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Paginator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Paginator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AdvancedCompressorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NaiveCompressorTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -77,7 +63,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -85,6 +71,15 @@
               <folding>
                 <element signature="e#117#118#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="78" lean-forward="true" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -151,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/SmsCompression.java" />
         <option value="$PROJECT_DIR$/src/test/java/CompressorTest.java" />
@@ -171,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/main/java/CostCalculator/CostCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/NaiveCompressorTestt.java" />
         <option value="$PROJECT_DIR$/src/test/java/NaiveCompressorTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -377,7 +372,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543655003783</updated>
-      <workItem from="1558031492955" duration="5060000" />
+      <workItem from="1558031492955" duration="5716000" />
     </task>
     <task id="LOCAL-00001" summary="README.md added">
       <created>1543655992395</created>
@@ -400,7 +395,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543657378098</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Naive Compressor corrected!">
+      <created>1558036735547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558036735547</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ReadMe updated!">
+      <created>1558037022739</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558037022739</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -436,12 +445,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5060000" />
+    <option name="totallyTimeSpent" value="5716000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -452,7 +461,7 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.32733223" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.32733223" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -507,16 +516,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="README.md added" />
     <MESSAGE value=".gitignore added" />
-    <option name="LAST_COMMIT_MESSAGE" value=".gitignore added" />
+    <MESSAGE value="Naive Compressor corrected!" />
+    <MESSAGE value="ReadMe updated!" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReadMe updated!" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/TestCase.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
@@ -699,6 +703,13 @@
           <folding>
             <element signature="e#117#118#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="78" lean-forward="true" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
         </state>
       </provider>
     </entry>

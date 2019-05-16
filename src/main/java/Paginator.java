@@ -24,13 +24,6 @@ public class Paginator {
             }
         }
         return returnArray;
-        /*final AtomicInteger atomicInteger = new AtomicInteger(0);
-        String[]result = text.chars()
-                .mapToObj(c -> String.valueOf((char) c))
-                .collect(Collectors.groupingBy(c -> atomicInteger.getAndIncrement() / SMS_LENGTH
-                        , Collectors.joining()))
-                .values().toArray(new String[0]);
-        return result;*/
 
     }
 
