@@ -8,7 +8,7 @@ public class Paginator {
 
     public String[] paginate(String text){
 
-        int SMS_LENGTH = 10;
+        SMS_LENGTH = 10;
         int arraySize = (int) Math.ceil((double) text.length() / SMS_LENGTH);
         String[] returnArray = new String[arraySize];
         int index = 0;

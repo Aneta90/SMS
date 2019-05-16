@@ -1,3 +1,4 @@
+import CostCalculator.CostCalculator;
 import junitparams.JUnitParamsRunner;
 import junitparams.Parameters;
 import org.junit.Test;
@@ -8,7 +9,6 @@ import static org.junit.Assert.assertEquals;
 
 
 @RunWith(JUnitParamsRunner.class)
-
 public class CalculatorTest{
 
     @Test
@@ -18,7 +18,7 @@ public class CalculatorTest{
         assertEquals(expectedValue,calc.calculate(numberOfMessages));
     }
 
-    private Object[] calcValues(){ //!private
+    private Object[] calcValues(){
         return new Object[]{
                 new Object[]{new BigDecimal("0.2"),100,new BigDecimal("20.0")},
                 new Object[]{new BigDecimal("0.2"),10,new BigDecimal("2.0")},

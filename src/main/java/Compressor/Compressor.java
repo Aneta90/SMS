@@ -1,3 +1,5 @@
+package Compressor;
+
 import java.io.IOException;
 
 public interface Compressor {
